@@ -15,7 +15,7 @@
 ## 安装与配置
 ### 前提条件
 - 已安装 Clash Verge 客户端。
-- 了解 Clash 基础规则格式（如 `DOMAIN-SUFFIX`、`DOMAIN-KEYWORD` 等规则类型）。
+- 了解 Clash 基础规则格式（如 `DOMAIN-SUFFIX`、`DOMAIN-KEYWORD` 等规则类型），详见[Clash Verge Rev 分流规则语法详细教程](https://clash-verge-doc.com/advanced-configuration/rule.html)。
 
 ## 注意事项
 1. **规则格式正确性**：自定义 `prependRules` 时，需确保每个规则的「逗号分隔格式」正确，缺失参数会导致脚本报错（例如：`DOMAIN-SUFFIX,bing.com` 缺少「策略/节点」参数，需补全为 `DOMAIN-SUFFIX,bing.com,DIRECT`）。
